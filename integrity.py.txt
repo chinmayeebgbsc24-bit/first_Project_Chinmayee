@@ -1,0 +1,11 @@
+# Data Integrity Verification
+# Checks if a string remains the same when reversed (palindrome check)
+
+data = input("Enter data packet: ")
+
+reversed_data = data[::-1]
+
+if data == reversed_data:
+    print("Data integrity verified. Packet is unchanged.")
+else:
+    print("Warning: Data corruption detected!")
